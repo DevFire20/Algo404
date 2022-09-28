@@ -1,0 +1,53 @@
+.navbar{
+    background-color: #021A58;
+}
+.nav2{
+    margin: auto;
+}
+.nav-img{
+    height: 20px;
+    width: 30px;
+}
+navbar-brand{
+    color: white;
+    font-weight: bolder;
+}
+.head-area{
+    background-color: #2E35AA;
+    height: 100vh;
+}
+.banner-content h1{
+    font-size: 50px;
+    color: white;
+    text-align: left;
+}
+.banner-content h3{
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    margin-top: 70px;
+}
+.navbar-nav{
+    gap: 15px;
+    font-family: serif;
+    
+}
+.about{
+    background-color: #C2DCEB;
+}
+.problem-solution{
+    background-color: #14317B;
+}
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
